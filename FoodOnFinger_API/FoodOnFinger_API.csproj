@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <StartupObject>FoodOnFinger_API.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
