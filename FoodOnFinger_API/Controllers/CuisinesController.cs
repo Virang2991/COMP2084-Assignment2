@@ -23,6 +23,7 @@ namespace FoodOnFinger_API.Controllers
 
         // GET: api/<controller>
         [HttpGet]
+        [HttpHead("{id}")]
         public IEnumerable<Cuisine> Get()
         {
             return db.Cuisine.ToList();
